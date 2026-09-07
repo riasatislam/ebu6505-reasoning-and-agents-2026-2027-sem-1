@@ -9,7 +9,7 @@ Semester 1, 2026–2027 · Teaching Week 4
 - Session objective: Consolidate the full Block 2 reasoning arc from uncertain belief to hidden-state planning using longer-form tutorial problems.
 - Timing target (min): 86
 - Topic anchors: bayesian network; exact inference; dynamic bayesian network; markov decision process; dynamic decision network; partially observable markov decision process
-- Padlet board: <https://padlet.com/qmul/b4-tutorial-6a1s440grh9uprtn>
+- Padlet board: <https://padlet.com/qmul/b2-tutorial-6a1s440grh9uprtn>
 
 ## Exercises
 

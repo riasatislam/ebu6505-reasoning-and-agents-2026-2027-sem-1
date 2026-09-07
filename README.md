@@ -58,4 +58,4 @@ Each exercise sheet contains the relevant Padlet board URL near the top of the d
 
 This public repository contains student-facing slides and worksheets only.
 
-The Padlet URLs are carried over from the previous semester. Follow your lecturer’s instructions about which boards to use for this session.
+The Padlet URLs use the current block numbering (`b1` and `b2`) and retain the existing board IDs.

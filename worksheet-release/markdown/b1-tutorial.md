@@ -9,7 +9,7 @@ Semester 1, 2026–2027 · Teaching Week 3
 - Session objective: Consolidate the whole of Block 1 with longer-form problems that strengthen exam-style reasoning and applied understanding.
 - Timing target (min): 86
 - Topic anchors: reinforcement learning; knowledge representation; knowledge graph; mcp; a2a; coding agent; prompt injection
-- Padlet board: <https://padlet.com/qmul/b3-tutorial-uqe9wb7pw5cpxo20>
+- Padlet board: <https://padlet.com/qmul/b1-tutorial-uqe9wb7pw5cpxo20>
 
 ## Exercises
 
