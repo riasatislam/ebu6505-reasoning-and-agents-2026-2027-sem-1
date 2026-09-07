@@ -1,0 +1,75 @@
+\definecolor{questionbg}{RGB}{235, 244, 255}
+\definecolor{questionframe}{RGB}{44, 95, 173}
+\definecolor{plainbg}{RGB}{241, 249, 241}
+\definecolor{plainframe}{RGB}{44, 122, 70}
+\definecolor{notationbg}{RGB}{255, 248, 230}
+\definecolor{notationframe}{RGB}{176, 118, 0}
+
+\newtcolorbox{questionbox}{
+  colback=questionbg,
+  colframe=questionframe,
+  boxrule=0.7pt,
+  arc=1mm,
+  fontupper=\small,
+  left=1mm,
+  right=1mm,
+  top=0.4mm,
+  bottom=0.4mm
+}
+
+\newtcolorbox{plainbox}{
+  colback=plainbg,
+  colframe=plainframe,
+  boxrule=0.7pt,
+  arc=1mm,
+  fontupper=\small,
+  left=1mm,
+  right=1mm,
+  top=0.4mm,
+  bottom=0.4mm
+}
+
+\newtcolorbox{notationbox}{
+  colback=notationbg,
+  colframe=notationframe,
+  boxrule=0.7pt,
+  arc=1mm,
+  fontupper=\small,
+  left=1mm,
+  right=1mm,
+  top=0.4mm,
+  bottom=0.4mm
+}
+
+\newcommand{\keyquestion}[1]{%
+  \begin{questionbox}
+  \textbf{Question:} #1
+  \end{questionbox}
+}
+
+\newcommand{\plainidea}[1]{%
+  \begin{plainbox}
+  \textbf{Main idea:} #1
+  \end{plainbox}
+}
+
+\newcommand{\notationblock}[1]{%
+  \begin{notationbox}
+  \textbf{Symbols used on this slide}\\
+  #1
+  \end{notationbox}
+}
+
+\newcommand{\exercisebreakcontent}[1]{%
+  \begin{center}
+  \begin{tikzpicture}[>=Latex, every node/.style={font=\small}]
+    \node[draw, rounded corners, very thick, fill=blue!8, minimum width=2.7cm, minimum height=0.95cm, align=center] (think) at (-3.9,0.9) {Think first};
+    \node[draw, rounded corners, very thick, fill=green!10, minimum width=3.2cm, minimum height=0.95cm, align=center] (work) at (0,0.9) {Work in pairs\\or small groups};
+    \node[draw, rounded corners, very thick, fill=orange!12, minimum width=2.9cm, minimum height=0.95cm, align=center] (share) at (3.9,0.9) {Discuss and\\compare ideas};
+    \draw[-{Latex[length=2.8mm]}, thick] (think) -- (work);
+    \draw[-{Latex[length=2.8mm]}, thick] (work) -- (share);
+    \node[draw, rounded corners, fill=white, minimum width=9.4cm, minimum height=1.05cm, align=center] at (0,-0.95) {Use this time to work on today's in-class tasks and prepare one clear answer you can discuss.};
+  \end{tikzpicture}
+  \end{center}
+  \plainidea{#1}
+}
