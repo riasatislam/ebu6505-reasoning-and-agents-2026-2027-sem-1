@@ -13,6 +13,7 @@ This repository contains the public teaching materials for `EBU6505 Reasoning an
 
 Slides are available in:
 
+- `slides/ModuleIntro`
 - `slides/Block1`
 - `slides/Block2`
 
@@ -51,6 +52,8 @@ Each exercise sheet contains the relevant Padlet board URL near the top of the d
   Block 1 (teaching week 3) slide sources and PDFs.
 - `slides/Block2`
   Block 2 (teaching week 4) slide sources and PDFs.
+- `slides/ModuleIntro`
+  Module introduction, teaching team, learning approach, schedule, assessment, and module representatives.
 - `slides/shared`
   Shared slide support TeX used by the slide sources.
 
